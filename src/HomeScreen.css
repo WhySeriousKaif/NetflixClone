@@ -1,0 +1,25 @@
+.homeScreen {
+  position: relative;
+  min-height: 100vh;
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+/* Add smooth spacing between rows */
+.row {
+  margin-bottom: 20px;
+}
+
+/* Remove any bottom padding/margin from last row */
+.row:last-child {
+  margin-bottom: 0;
+  padding-bottom: 40px;
+}
+
+/* Ensure 
+category labels don't create gaps */
+.category__label {
+  margin-bottom: 0;
+  position: sticky;
+  z-index: 1;
+}
